@@ -19,7 +19,7 @@ import type {
 } from "../types.js";
 import { DEFAULT_TREASURY_POLICY } from "../types.js";
 import { createJintelClient } from "./client.js";
-import { createJintelTools } from "./yojin-tools.js";
+import { createJintelTools } from "./tool-definitions.js";
 
 const SOLANA_BLOCKED =
   "Jintel x402 requires an EVM wallet. Solana automatons cannot sign EVM payment authorizations.";
